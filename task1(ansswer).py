@@ -7,5 +7,7 @@ def rectangle_area(a, b):
     :return: area of the rectangle
     :raises ValueError: if either number was negative
     """
+    area = abs(a) * abs(b) 
+    return area
     
     pass
